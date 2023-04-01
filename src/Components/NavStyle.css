@@ -1,0 +1,126 @@
+.Navitems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  width: 94%;
+  height: 80px;
+  border-radius: 13px; 
+  position: fixed;
+  top: 20px;
+  left: 2.9%;
+  transform: translate(0%);
+  z-index: 9999;
+    
+}
+.nav-menu{
+   display: flex;
+    grid-template-columns: repeat(6, auto);
+    list-style: none;
+    text-align: center; 
+    justify-content: end; 
+
+}
+.containers{
+    color: black;
+    border-radius: 15px;
+      
+}
+.nav-links{
+   text-decoration: none;
+   color: black;
+   white-space: nowrap;
+   padding: 35px;
+   margin-left: -50px;
+}
+.nav-links :hover{
+background: rgba(80, 80, 238);
+border-radius: 4px;
+transition: all 0.2s ease-in-out;
+
+}
+.fa-bars{
+color: black;
+margin: 20px;
+
+}
+.menu-icon{
+   display: none;
+}
+ @media screen and (max-width: 870px){
+   .Navbaritems{
+   width: 95%;
+   z-index: 99;
+   }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgb(255, 255, 255, .25);
+        box-shadow: 0 8px 32px 0 rgb(31, 38, 135, .37);
+        backdrop-filter: blur(4px); 
+        border-radius:15px;
+        height: auto;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+        left: -3%;
+        align-items: stretch;
+      }
+      .container{
+        margin: 1%;
+        padding: 10px 30px;
+      }
+   .nav-menu.active{
+     left: 0%;
+     opacity: 1;
+     z-index: -1;
+     transition: 0.3s ease-in-out;
+   }
+ 
+   .nav-links{
+     display: block;
+     widows: 100%;
+     padding: 2rem 0;
+     color: #222;
+   }
+ 
+   .nav-links:hover{
+     background-color: rgb(255, 255, 255, .25);
+     backdrop-filter: buler(20px);
+   } 
+   .menu-icons{
+     display: block;
+     cursor: pointer;
+ }
+  .search-bar{
+ padding: 1.3rem ;
+ display: inline-block;
+ text-align: center;
+ font-size: 1.3rem;
+ font-weight: bold; 
+ width: 70%;
+ max-width: auto;
+ }
+ }
+  @media screen and (max-width: 450px){
+  .Navbaritems{
+    width: 85%;
+    z-index: 99;
+  }
+  .container{
+    margin: 1%;
+  }
+  }
+ @media screen and (max-width: 300px){
+  .Navbaritems{
+    width: 80%;
+    z-index: 99;
+  
+  }
+}
+    

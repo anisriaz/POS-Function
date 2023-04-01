@@ -1,0 +1,160 @@
+.row-2{
+   padding: 1% 0%;
+  width: 100%; 
+}
+.tb-l {
+  margin: 8%;
+  font-family: Arial, sans-serif;
+  padding: -10px 10px;
+}
+
+.add-member {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.value {
+  margin-right: 3%;
+  padding: 0.5rem 3rem ;
+  border: 1px solid #080202;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.Row {
+  margin-top: 1%;
+  border-radius: 10px;
+  background-color: rgb(133, 202, 202);
+  padding: 0.7rem 3rem ;
+  font-size: 19px;
+}
+.bt-1 {
+  margin-left: 13%;
+  padding: 0.5rem 2.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.bt {
+  margin-left: 2.5%;
+  padding: 0.5rem 2.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fa0707;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-3 {
+  overflow-x: auto;
+}
+
+.tab-2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tab-2 th,
+.tab-2 td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-2 th {
+  font-weight: bold;
+}
+.Amount{
+ background-color: antiquewhite;
+ margin: 9%;
+ padding: 1% 15%;
+}
+.form {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: -9%;
+  font-family: Arial, sans-serif;
+  padding-left: 10%;
+  border-radius: 2%;
+}
+
+.form input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.unit{
+padding: 6px 8px;
+background-color: #fff;
+border-radius: 10px;
+}
+.bottom{
+ margin: 1.5%;
+ padding: 1% 20%; 
+ 
+}
+.bt-3{
+  color: #fff;
+padding: 0.7% 2%;
+margin: 1%;
+background-color: #007bff;
+border-radius: 10px;
+color: #fff;
+}
+.bt-4{
+  padding: 0.7% 2%;
+  background-color: #007bff; 
+  border-radius: 10px;
+  color: #fff;
+}
+.bt-5{
+  padding: 0.7% 2%;
+  margin: 1%;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: #fff;
+}
+.bt-6{
+  padding: 0.7% 2%;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: #fff;
+}
+.unit{
+  border: 1px solid #080202;
+  width: 14%;
+  padding: 5px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.tit{
+  border: 1px solid #080202;
+  border-radius: 10px;
+  width: 15%;
+  padding: 4px;
+  margin-right: 1%;
+}
+.RS{
+  border: 1px solid #080202;
+  border-radius: 10px;
+  width: 14%;
+  padding: 5px;
+  margin-right: 1%;
+}
+

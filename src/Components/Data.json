@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Iphone",
+        "quantity": "0",
+        "Price": "95000",
+        "Action": "Delete"
+    },
+    {
+        "id": 2,
+        "title": "Samsung",
+        "Quantity": "0",
+        "Price": "80000",
+        "Action": "Delete"
+    },
+    {
+        "id": 3,
+        "title": "Realme",
+        "Quantity": "0",
+        "Price": "60000",
+        "Action": "Delete"
+    },
+    {
+        "id": 4,
+        "title": "Oppo",
+        "Quantity": "0",
+        "Price": "50000",
+        "Action": "Delete"
+    },
+    {
+        "id": 5,
+        "title": "infinix",
+        "Quantity": "0",
+        "Price": "30000",
+        "Action": "Delete"
+    },
+    {
+        "id": 6,
+        "title": "Redme",
+        "Quantity": "0",
+        "Price": "40000",
+        "Action": "Delete"
+    }
+]
