@@ -88,15 +88,15 @@ function ProductTable() {
             </select></form>
           {selectedItem && (
             <>
-              <input autoComplete='off' type="text" className='unit' name="Unit" value={selectedItem.title} readOnly />
-              <input autoComplete='off' type="number" className='unit' name="Quantity" value={quantity} onChange={handleQuantityChange} />
+              <input autoComplete='off' type="text" className='unit-1' name="Unit" value={selectedItem.title} readOnly />
+              <input autoComplete='off' type="number" className='unit-2' name="Quantity" value={quantity} onChange={handleQuantityChange} />
               <input autoComplete='off' type="text" className='RS' name="Price" value={selectedItem.Price * quantity} readOnly />
             </>
           )}
           {!selectedItem && (
             <>
-              <input type="text" className='unit' name="Unit" value="" />
-              <input type="text" className='unit' name="Quantity" value="" />
+              <input type="text" className='unit-1' name="Unit" value="" />
+              <input type="text" className='unit-2' name="Quantity" value="" />
               <input type="text" className='RS' name="Price" value="" />
             </>
           )}
