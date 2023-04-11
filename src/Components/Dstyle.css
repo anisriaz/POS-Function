@@ -1,7 +1,9 @@
-.row-2{
-   padding: 1% 0%;
-  width: 100%; 
+.row-2 {
+  margin-left: -1%;
+  padding: 3.5rem 0rem ;
+  max-width: 115%;
 }
+
 .tb-l {
   margin: 8%;
   font-family: Arial, sans-serif;
@@ -18,8 +20,8 @@
 }
 
 .value {
-  margin-right: 3%;
-  padding: 0.5rem 3rem ;
+  margin: -15%;
+  padding: 10px 15px;
   border: 1px solid #080202;
   border-radius: 10px;
   border-color: black;
@@ -29,9 +31,10 @@
   margin-top: 1%;
   border-radius: 10px;
   background-color: rgb(133, 202, 202);
-  padding: 0.7rem 3rem ;
+  padding: 0.8rem 3rem;
   font-size: 19px;
 }
+
 .bt-1 {
   margin-left: 13%;
   padding: 0.5rem 2.9rem;
@@ -41,6 +44,7 @@
   color: #fff;
   cursor: pointer;
 }
+
 .bt {
   margin-left: 2.5%;
   padding: 0.5rem 2.9rem;
@@ -70,11 +74,13 @@
 .tab-2 th {
   font-weight: bold;
 }
-.Amount{
- background-color: antiquewhite;
- margin: 9%;
- padding: 1% 15%;
+
+.Amount {
+  background-color: antiquewhite;
+  margin: 9%;
+  padding: 1% 15%;
 }
+
 .form {
   padding: 10px;
   background-color: #fff;
@@ -99,62 +105,136 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.unit{
-padding: 6px 8px;
-background-color: #fff;
-border-radius: 10px;
+
+.bottom {
+  margin: 1.5%;
+  padding: 1% 20%;
+
 }
-.bottom{
- margin: 1.5%;
- padding: 1% 20%; 
- 
-}
-.bt-3{
+
+.bt-3 {
   color: #fff;
-padding: 0.7% 2%;
-margin: 1%;
-background-color: #007bff;
-border-radius: 10px;
-color: #fff;
-}
-.bt-4{
-  padding: 0.7% 2%;
-  background-color: #007bff; 
-  border-radius: 10px;
-  color: #fff;
-}
-.bt-5{
   padding: 0.7% 2%;
   margin: 1%;
   background-color: #007bff;
   border-radius: 10px;
   color: #fff;
 }
-.bt-6{
+
+.bt-4 {
   padding: 0.7% 2%;
   background-color: #007bff;
   border-radius: 10px;
   color: #fff;
 }
-.unit{
+
+.bt-5 {
+  padding: 0.7% 2%;
+  margin: 1%;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.bt-6 {
+  padding: 0.7% 2%;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.unit-1{
   border: 1px solid #080202;
-  width: 14%;
-  padding: 5px;
+  border-radius: 10px;
+  width: 25%;
+  padding:5px ;
   margin-right: 1%;
   margin-left: 1%;
 }
-.tit{
+.unit-2{
   border: 1px solid #080202;
   border-radius: 10px;
   width: 15%;
+  padding:5px;
+  margin-right: -10%;
+}
+
+.tit {
+  border: 1px solid #080202;
+  border-radius: 10px;
+  width: 5%;
   padding: 4px;
   margin-right: 1%;
 }
-.RS{
+
+.RS {
   border: 1px solid #080202;
   border-radius: 10px;
-  width: 14%;
-  padding: 5px;
-  margin-right: 1%;
+  padding: 5px ;
+  width: 20%;
+  margin-left: 12%;
 }
 
+@media screen and (max-width: 870px) {
+ 
+  .row-2 {
+    margin-left: -11%;
+    padding: 75px;
+    width: 150%;
+  }
+.value {
+  padding: 7px 5px;
+  border: 1px solid #080202;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.unit-1{
+  margin-left: 1%;
+  padding:5px 12px;
+}
+.unit-2{
+  margin-left: 1%;
+  padding:5px 12px;
+}
+.RS{
+  padding: 4px 5px;
+}
+.bt-1{
+ margin-left: 2%;
+  padding: 0.4rem 2rem;
+}
+.bt{
+  padding: 0.4rem 2rem;
+}}
+@media screen and (max-width: 470px) {
+ 
+  .row-2 {
+    padding: 3.5rem 0rem ;
+    max-width: 250%;
+  }
+.value {
+
+  border: 1px solid #080202;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.unit-1{
+  margin-left: 1%;
+  padding:5px 12px;
+}
+.unit-2{
+  margin-left: 1%;
+  padding:5px 12px;
+}
+.RS{
+  padding: 4px 5px;
+}
+.bt-1{
+  padding: 5px 10px;
+}
+.bt{
+  padding: 5px 5px;
+}
+}
